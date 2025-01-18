@@ -1,0 +1,16 @@
+{
+    "headerPage":{
+        "searchInput": "input[placeholder='pesquisa']",
+        "searchButton":"button[class='searchbar-large']"
+
+    },
+    "bodyPage":{
+       "bookTitle": "h6[class='book-title']",
+       "bookSinopse": "section[class='sinopse']"
+        
+
+    }
+    
+
+
+}
