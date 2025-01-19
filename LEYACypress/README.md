@@ -13,7 +13,7 @@
   Open the terminal on VS Code   
 
 ### Interactive mode  
-    - npx cypress open 
+     npx cypress open 
 
 - The cypress tools is opened and you need to choose E2E Testing
 
@@ -22,7 +22,7 @@
 - You can see the test cases into the TestCases directory, Click to run
 
 ### Terminal mode  
-    - npx cypress run     
+     npx cypress run     
  
 
 
