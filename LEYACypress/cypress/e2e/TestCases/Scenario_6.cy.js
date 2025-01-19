@@ -4,8 +4,8 @@ import {searchBook, openBook} from '../GenericFunctions/genericFunctions'
 const website= require("../../../cypress.env.json")
 const locator= require("../Locators/locators.json")
 
-it.only('Validate the category of the books" ', () => {
- /*  Validate the category about "A Guerra dos Pobres" it's equal to "Romance" */
+it.only('Validate if the category of the books" ', () => {
+ /*  Validate if the category about "A Guerra dos Pobres" it's equal to "Romance" */
  
     cy.visit(website.url);
     searchBook('A Guerra dos Pobres');

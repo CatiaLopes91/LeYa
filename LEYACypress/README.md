@@ -58,7 +58,7 @@
 # Aditional Scenario's
 
 ### **Scenario 6:**  
-- Validate the category about "A Guerra dos Pobres" it's equal to "Romance"
+- Validate the if category about "A Guerra dos Pobres" it's equal to "Romance"
 
 
 
