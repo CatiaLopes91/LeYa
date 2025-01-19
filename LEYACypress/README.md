@@ -4,10 +4,9 @@
 
 1 - Install Node.js (https://nodejs.org/en/download)  
 2 - Clone project  
-3 - Open the terminal on VS Code and install the dependencies about project 
-    ```bash
-     npm install
-    ```
+3 - Open the terminal on VS Code and install the dependencies about project   
+     npm install   
+
 
 # Running
 
