@@ -6,7 +6,11 @@ const locator= require("../Locators/locators.json")
 it.only('Validate the author abour the book "1984" and "A Quinta dos Animais" ', () => {
  /*  Search for the book "1984." Verify that the book "A Quinta dos Animais" is authored by the same author." */
  
-    cy.visit(website.url);
+    var a = b =5;
+    cy.log("Valor da variavel: ", b);
+
+
+ cy.visit(website.url);
     searchBook('1984');
     openBook('1984');
  
