@@ -31,8 +31,9 @@
 
 # Notes
 
-- **I made some decisions related to specification of test cases:**    
-We have some words like **"Quinta Manor.",  "1984.", "George Orwell.",  "9789722071550.", "344." , "235 x 157 x 23 mm."** that have the **.** after the word. The webSite don't have the **.** after the values. **So in my Scripts I validate the words without .** ("Quinta Manor",  "1984", "George Orwell" ... ).
+**I made some decisions related to specification of test cases:**    
+
+- We have some words like **"Quinta Manor.",  "1984.", "George Orwell.",  "9789722071550.", "344." , "235 x 157 x 23 mm."** that have the **.** after the word. The webSite don't have the **.** after the values. **So in my Scripts I validate the words without .** ("Quinta Manor",  "1984", "George Orwell" ... ).
 
 - On a real situation before I start my test development I will validate with the person that wright the test cases, in this case I made the decision to delete the **.** .
 
