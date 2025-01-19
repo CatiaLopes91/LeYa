@@ -34,13 +34,13 @@ Some changes into e2e default Structure.
 **TestCases:** In this Directory have all the test cases created.  
 
 
-├── cypress/
-│ ├── e2e
-│ | ├── GenericFunctions
-│ | |   ├──genericFunctions.js
-│ | ├── Locators
-│ | |   ├──locators.json
-│ | ├── TestCases
+├── cypress/  
+│ ├── e2e  
+│ | ├── GenericFunctions  
+│ | |   ├──genericFunctions.js  
+│ | ├── Locators  
+│ | |   ├──locators.json  
+│ | ├── TestCases  
 
 
 
