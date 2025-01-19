@@ -1,13 +1,15 @@
 {
     "headerPage":{
         "searchInput": "input[placeholder='pesquisa']",
-        "searchButton":"button[class='searchbar-large']"
+        "searchButton":"button[class='searchbar-large']",
+        "menuBurger" : "i[class='icon-hamburguer nav-icon']"
 
     },
     "bodyPage":{
        "bookTitle": "h6[class='book-title']",
-       "bookSinopse": "section[class='sinopse']"
-        
+       "bookSinopse": "section[class='sinopse']",
+       "filterOption": "div[class='search-filter-btn']",
+       "filterApplyed": "div[class='filter-item hide']"        
 
     }
     
