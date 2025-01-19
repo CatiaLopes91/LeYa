@@ -6,7 +6,7 @@ const locator= require("../Locators/locators.json")
 
 it.only('Validate the filter price" ', () => {
  /*  Validate the filter price about books. You need select Livros Menu option, add the filter < 10€. 
- Validate if the first 10 books price is <10€" */
+ Validate if the filter is added and the first 10 books price is <10€" */
  
     cy.visit(website.url);
     
