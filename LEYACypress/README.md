@@ -29,10 +29,10 @@
 ## Project Structure
 
 **Some changes into e2e default Structure:**   
- 
-**GenericFunctions:** In this Directory The file about genericFunctions.js have some functions that you can use in multiple test cases.  
-**Locators:** In this Locators The file about locators.json have selectores that you can use in in multiple test cases. And if some element need to be changed only need change into this file.  
-**TestCases:** In this Directory have all the test cases created.  
+
+- **GenericFunctions:** In this Directory The file about genericFunctions.js have some functions that you can use in multiple test cases.  
+-**Locators:** In this Locators The file about locators.json have selectores that you can use in in multiple test cases. And if some element need to be changed only need change into this file.  
+- **TestCases:** In this Directory have all the test cases created.  
 
 
 ├── cypress/  
