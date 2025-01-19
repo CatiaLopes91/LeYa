@@ -2,14 +2,18 @@
     "headerPage":{
         "searchInput": "input[placeholder='pesquisa']",
         "searchButton":"button[class='searchbar-large']",
-        "menuBurger" : "i[class='icon-hamburguer nav-icon']"
+        "menuBurger" : "i[class='icon-hamburguer nav-icon']",
+        "basketIcon":"i[class='icon-carrinho nav-icon']",
+        "darkMode":"div[id='darkmode']"
 
     },
     "bodyPage":{
        "bookTitle": "h6[class='book-title']",
        "bookSinopse": "section[class='sinopse']",
        "filterOption": "div[class='search-filter-btn']",
-       "filterApplyed": "div[class='filter-item hide']"        
+       "filterApplyed": "div[class='filter-item hide']",
+       "authorName": "section.author a.nome_autor",
+       "structureNavigation": "nav[aria-label='breadcrumb']"      
 
     }
     

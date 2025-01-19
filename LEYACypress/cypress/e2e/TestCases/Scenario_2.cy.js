@@ -12,7 +12,7 @@ Check that the number of pages is "344." Ensure that the dimensions of the book 
     openBook('1984');
 
     //validate author
-    cy.get('section.author a.nome_autor').should('have.text', 'GEORGE ORWELL')
+    cy.get(locator.bodyPage.authorName).should('have.text', 'GEORGE ORWELL')
     cy.get("h2").contains('Detalhes').parent().contains('ISBN').should('have.text', 'ISBN: 9789722071550');
     cy.get("h2").contains('Detalhes').parent().contains('Páginas').should('have.text', 'Páginas: 344');
     cy.get("h2").contains('Detalhes').parent().contains('Dimensões').should('have.text', 'Dimensões: 235 x 157 x\n 23 mm\n ');

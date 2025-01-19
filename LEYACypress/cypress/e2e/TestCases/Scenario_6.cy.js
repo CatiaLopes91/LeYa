@@ -11,8 +11,8 @@ it.only('Validate if the category of the books" ', () => {
     searchBook('A Guerra dos Pobres');
     openBook('A Guerra dos Pobres');
 
-    cy.get('nav[aria-label="breadcrumb"]').should('be.visible').first();
-    cy.get('nav[aria-label="breadcrumb"]').find('ol').find('li').eq(2).contains('Romance');
+    cy.get(locator.bodyPage.structureNavigation).should('be.visible').first();
+    cy.get(locator.bodyPage.structureNavigation).find('ol').find('li').eq(2).contains('Romance');
 
     
  

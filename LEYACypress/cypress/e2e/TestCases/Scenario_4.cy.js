@@ -11,7 +11,7 @@ it.only('Add 1 book in the basket" ', () => {
     openBook('1984');
     
     cy.get('a').contains('Comprar').should('be.visible').first().click();
-    cy.get("i[class='icon-carrinho nav-icon']").parent().invoke('attr', 'data-tag').should('eq','1');
+    cy.get(locator.headerPage.basketIcon).parent().invoke('attr', 'data-tag').should('eq','1');
  
 
 });
