@@ -7,16 +7,16 @@
 3 - Open the terminal on VS Code and install the dependencies about project (npm install)
 
 
-#Running
+# Running
 
 1 - Open the terminal on VS Code 
-    - #interactive mode
+    - # interactive mode
         - npx cypress open 
             - The cypress tools is opened and you need to choose E2E Testing
             - You can choose a browser
             - You can see the test cases into the TestCases directory, Click to run
     
-    - #Terminal Mode
+    - # Terminal Mode
         - npx cypress run
 
 
