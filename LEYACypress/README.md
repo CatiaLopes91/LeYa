@@ -53,5 +53,17 @@
 
 - On a real situation before I start my test development I will validate with the person that wright the test cases, in this case I made the decision to delete the **.** .
 
-- In **scenario 3** the book **"A Quinta dos Animais" dosn't exists** on the system, I did the test development with this book, so because of that the test status is **failed**.  
+- In **scenario 3** the book **"A Quinta dos Animais" dosn't exists** on the system, I did the test development with this book, so because of that the test status is **failed**. 
+
+# Aditional Scenario's
+
+### **Scenario 6:**  
+- Validate the category about "A Guerra dos Pobres" it's equal to "Romance"
+
+
+
+### **Scenario 7:**  
+- In the Livros menu validate if the filter "<10€" works correctly   
+- Validate if the first 10 Books have the price <10€.
+
 
